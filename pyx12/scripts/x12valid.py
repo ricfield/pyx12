@@ -87,7 +87,7 @@ def main():
     if args.debug:
         logger.setLevel(logging.DEBUG)
         param.set('debug', True)
-    if args.verbose > 0:
+    if args.verbose:
         logger.setLevel(logging.DEBUG)
     if args.quiet:
         logger.setLevel(logging.ERROR)
